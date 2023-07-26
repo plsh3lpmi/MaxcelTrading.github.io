@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Times 'Times New Roman', Times, serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(b.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px ;
+}
+.logo img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 2200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 80px;
+}
+.subtitle{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+.subtitle h1{
+    color: #fff;
+    font-size: 20px;
+}
+.subtitle h2{
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*About Section*/
+
+    #about .about{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        height: 110vh;
+        min-height: 110px ;
+    }
+    #about .about-title{
+        font-size: 3rem;
+        font-weight: 300;
+        color: black;
+        margin-top: 0.5px;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        text-align: center;
+    }
+    #about .a-title{
+        font-size: 1.9rem;
+        color: crimson;
+    }
+    #about .about-top p{
+        font-size: 1.5rem;
+        margin-top: 50px;
+        margin-bottom: center;
+        line-height: 3rem;
+        font-weight: 300px;
+        letter-spacing: 0.05rem;
+        text-align: center;
+    }
+/*End About Section*/
+/*Products Section*/
+#products .products{
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    height: 110vh;
+    min-height: 110px ;
+}
+#products .container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#products .products-header h1{
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    text-align: center;
+
+}
+#products .products-subtitle{
+    font-size: 2rem;
+    font-weight: 150;
+    color: darkblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    text-align: center;
+}
+#products .all-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#products .products-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#products .products-img{
+    flex-basis: 50%;
+    height: 400px;
+}
+#products .products-info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color: 	#3855ca;
+}
+#products .products-info p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: center;
+    line-height: 3rem;
+    font-weight: 300px;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    color: black;
+}
+/*End Products Section*/
+/*Start Contact Section*/
+#contact .contact{
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    height: 110vh;
+    min-height: 110px ;
+    margin-top: 13500px;
+}
+#contact .container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact .section-title{
+    font-size: 4rem;
+    font-weight: 300;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    text-align: center;
+
+}
+#contact .contact-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contact contact-items{
+    width: 100%;
+}
+#contatc .contact-item{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#contact .icon{
+    width: 100px;
+    margin: 0 auto;
+    size-adjust: 500px;
+}
+#contact .contact-info{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: 	black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#contact .contact-info h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    color: 	darkblue;
+
+}
+/*End Contact Section*/
